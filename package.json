@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "swagger.json to markdown",
   "main": "s2m.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/kazu14m1/swagger2markdown.git"
+  },
   "directories": {
     "test": "test"
   },
