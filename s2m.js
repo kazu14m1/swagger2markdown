@@ -17,7 +17,6 @@ if (json.hasOwnProperty('definitions')) {
 }
 console.log(definitions);
 
-/*
 const paths = json.paths;
 for (let path in paths) {
     let methods = paths[path];
@@ -27,7 +26,6 @@ for (let path in paths) {
         break;
     }
 }
-*/
 
 // fs.writeFile("hoge.mnd", "hogehoge");
 // console.log(json.swagger);
