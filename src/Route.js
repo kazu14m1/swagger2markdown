@@ -2,12 +2,14 @@
 
 module.exports = class Route {
 
-  constructor(path, method) {
-    this.path = path.split('/').join(':');
+  constructor(path, method, contents) {
+    this.path = path;
     this.method = method.toUpperCase();
+    this.contents = contents;
   }
 
   fileName() {
+    let p = this.path.split('/').join(':');
     return `${this.method}${this.path}`;
   }
 };
